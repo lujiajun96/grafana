@@ -92,7 +92,7 @@
           "x": 0,
           "y": 0
         },
-        "id": 2,
+        "id": 1,
         "options": {
           "legend": {
             "calcs": [],
@@ -109,10 +109,14 @@
         "pluginVersion": "12.2.0-16791878397",
         "targets": [
           {
+            "datasource": {
+              "type": "datasource",
+              "uid": "grafana"
+            },
             "refId": "A"
           }
         ],
-        "title": "New panel2",
+        "title": "New panel",
         "type": "timeseries"
       },
       {
@@ -178,10 +182,10 @@
         "gridPos": {
           "h": 8,
           "w": 12,
-          "x": 0,
+          "x": 12,
           "y": 0
         },
-        "id": 1,
+        "id": 2,
         "options": {
           "legend": {
             "calcs": [],
@@ -198,14 +202,10 @@
         "pluginVersion": "12.2.0-16791878397",
         "targets": [
           {
-            "datasource": {
-              "type": "datasource",
-              "uid": "grafana"
-            },
             "refId": "A"
           }
         ],
-        "title": "New panel",
+        "title": "New panel2",
         "type": "timeseries"
       }
     ],
@@ -216,7 +216,7 @@
       "list": []
     },
     "time": {
-      "from": "now-6h",
+      "from": "now-5m",
       "to": "now"
     },
     "timepicker": {},
