@@ -2,7 +2,8 @@
   "apiVersion": "dashboard.grafana.app/v1beta1",
   "kind": "Dashboard",
   "metadata": {
-    "name": "dceui6ejm1hc00c"
+    "name": "dceui6ejm1hc00c",
+    "author": "lujiajun"
   },
   "spec": {
     "annotations": {
