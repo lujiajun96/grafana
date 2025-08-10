@@ -3,7 +3,9 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "dceui6ejm1hc00c",
-    "author": "lujiajun"
+    "annotations": {
+      "author": "lujiajun"
+    }
   },
   "spec": {
     "annotations": {
